@@ -201,7 +201,7 @@ input {
     margin-bottom: 10px;
 }
 
-.course__counter-line, 
+.course__counter-line,
 .course__progress-label {
     color: #FFFFFF40;
 }
@@ -383,7 +383,7 @@ progress::-moz-progress-value {
 }
 
 .program-line {
-    display: flex;    
+    display: flex;
     justify-content: space-between;
     width: 750px;
 }
@@ -629,6 +629,16 @@ progress::-moz-progress-value {
 .noscroll {
     overflow: hidden !important;
     height: 100% !important;
+}
+
+.closeModal {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: end;
+    cursor: pointer;
+    opacity: 0.5;
+    margin-left: 455px;
 }
 
 /*сетка*/
