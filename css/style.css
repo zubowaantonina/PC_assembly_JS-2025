@@ -571,6 +571,7 @@ progress::-moz-progress-value {
     padding: 9rem 9.5rem;
     background: #2C2C2C;
     text-align: center;
+    position: relative;
 }
 
 .modal__header {
@@ -579,6 +580,7 @@ progress::-moz-progress-value {
     line-height: 140%;
     color: var(--text-white-color);
     margin-bottom: 1rem;
+
 }
 
 .modal__subheader {
@@ -638,7 +640,9 @@ progress::-moz-progress-value {
     justify-content: end;
     cursor: pointer;
     opacity: 0.5;
-    margin-left: 455px;
+    position: absolute;
+    top: 60px;
+    right: 60px;
 }
 
 /*сетка*/
