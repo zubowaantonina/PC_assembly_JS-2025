@@ -1,4 +1,5 @@
-// const contents = document.querySelectorAll('.program-line__content')
+const accordeon=()=>{
+    // const contents = document.querySelectorAll('.program-line__content')
 const title = document.querySelectorAll('.program-line__title')
 const descr = document.querySelectorAll('.program-line__descr')
 
@@ -22,3 +23,5 @@ title.forEach((item, index) => {
 
 })
 
+}
+accordeon()

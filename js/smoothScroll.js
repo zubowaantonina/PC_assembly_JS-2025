@@ -1,5 +1,6 @@
 
-const navBar = document.querySelector('.header__nav')
+const smoothScroll=()=>{
+    const navBar = document.querySelector('.header__nav')
 const links = navBar.querySelectorAll('a');
 
 links.forEach((link) => {
@@ -18,3 +19,5 @@ links.forEach((link) => {
 
     })
 })
+}
+smoothScroll()
