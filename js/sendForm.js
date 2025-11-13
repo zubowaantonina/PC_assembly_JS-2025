@@ -6,7 +6,7 @@ const sendForm = () => {
         const text = form.querySelector('input[type=text]')
         const tel = form.querySelector('input[type=tel]')
         const email = form.querySelector('input[type=email]')
-
+        const modal = document.querySelector('.modal')
 
         const sendObj = {
             name: text.value,
@@ -32,6 +32,7 @@ const sendForm = () => {
                 console.log(data);
                 alert('Данные отправлены')
                 form.reset()
+                modal.style.display = ''
             })
             .catch(error => {
                 alert('поизошла ошибка' + error.message)

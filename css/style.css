@@ -224,6 +224,8 @@ input {
 
 .course__progress-element {
     width: 100%;
+    background: #FFFFFF;
+     margin: 5px 0;
 }
 
 .course__progress-minmax {
@@ -232,8 +234,14 @@ input {
     justify-content: space-between;
     color: #FFFFFF40;
 }
+.progress{
+     width: 10%;
+  background:linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
+    height: 6px;
+  
+}
 
-progress,
+/* progress,
 progress[value],
 progress:not([value]) {
     appearance: none;
@@ -259,7 +267,7 @@ progress {
 progress::-moz-progress-value {
     background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
     height: 6px;
-}
+} */
 
 
 
